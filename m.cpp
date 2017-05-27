@@ -14,6 +14,7 @@ void main()
 	std::cout << t[600].GetData() << std::endl;
 	t.Del(600);
 	std::cout << t[990].GetData() << std::endl;
+	t.resize(14);
 	try {
 		std::cout << t[600].GetData() << std::endl;//Îøèáêà
 	}
